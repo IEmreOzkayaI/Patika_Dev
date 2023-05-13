@@ -1,0 +1,42 @@
+
+Adım  | İşlem             | İşlenen Dizi
+------|--------------------|-------------------------
+  1   | Bölme             | [16, 21, 11, 8, 12, 22]
+  2   | Bölme             | [16, 21, 11] | [8, 12, 22]
+  3   | Bölme             | [16] | [21, 11] | [8] | [12, 22]
+  4   | Bölme             | [16] | [21] | [11] | [8] | [12] | [22]
+  5   | Birleştirme       | [11, 16, 21] | [8, 12, 22]
+  6   | Birleştirme       | [8, 11, 12, 16, 21, 22]
+
+Yukarıdaki tabloda her adımda bölme (split) ve birleştirme (merge) işlemleri gösterilmektedir. İlk adımda verilen dizi ikiye bölünür ve ardışık adımlarda her bir parça daha küçük parçalara bölünür. 
+Daha sonra, sıralı olarak birleştirme işlemi gerçekleştirilir. Son adımda tamamen birleştirilmiş sıralı dizi elde edilir.
+
+Dizi: [16, 21, 11, 8, 12, 22]
+
+1. Adım: Diziyi ikiye böl.
+   - [16, 21, 11] | [8, 12, 22]
+
+2. Adım: Her bir parçayı tekrar ikiye böl.
+   - [16] | [21, 11]
+   - [8] | [12, 22]
+
+3. Adım: Her bir parçayı tek elemanlı olana kadar bölmeye devam et.
+   - [16]
+   - [21] | [11]
+   - [8]
+   - [12] | [22]
+
+4. Adım: Her iki parçayı sıralı şekilde birleştir.
+   - [16]
+   - [11, 21]
+   - [8]
+   - [12, 22]
+
+5. Adım: İki sıralı parçayı birleştir.
+   - [11, 16, 21]
+   - [8, 12, 22]
+
+6. Adım: Son olarak, iki sıralı parçayı birleştir ve tam sıralı dizi elde et.
+   - [8, 11, 12, 16, 21, 22]
+
+Bu şekilde, Merge Sort algoritması adımları tablolu bir şekilde gösterilmiştir. Her bir adımda bölme ve birleştirme işlemleri gerçekleştirilerek sonunda tam sıralı bir dizi elde edilir.
