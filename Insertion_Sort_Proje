@@ -1,0 +1,51 @@
+#SORU 1
+---------------------------------------------------------
+Adım  | İşlenen Öğe | İşlenen Dizi
+------|-------------|---------------
+  1   |     27      |  [22, 27, 16, 2, 18, 6]
+  2   |     16      |  [16, 22, 27, 2, 18, 6]
+  3   |     2       |  [2, 16, 22, 27, 18, 6]
+  4   |     18      |  [2, 16, 18, 22, 27, 6]
+  5   |     6       |  [2, 6, 16, 18, 22, 27]
+
+Yukarıdaki tabloda her adımda işlenen öğe ve güncellenen diziyi görebilirsiniz. Her adımda, bir öğe alınır ve doğru konuma yerleştirilir. İşlem sonunda dizi sıralanmış olur.
+
+Başlangıçta verilen dizi: [22, 27, 16, 2, 18, 6]
+Sıralanmış dizi: [2, 6, 16, 18, 22, 27]
+
+#SORU 2
+---------------------------------------------------------
+Insertion Sort algoritmasının Big-O gösterimi O(n^2) şeklindedir. Bu, sıralanacak elemanların sayısına (n) bağlı olarak zaman karmaşıklığının karesel olarak büyüyeceğini gösterir. Yani, eleman sayısı arttıkça algoritmanın çalışma süresi daha da artar.
+
+#SORU 3
+---------------------------------------------------------
+Sonuç olarak, 18 sayısı sıralanan dizide average case ve worst case kapsamına girmektedir, best case kapsamına girmemektedir.
+
+
+#SORU 4
+---------------------------------------------------------
+
+Adım  | İşlem                     | İşlenen Dizi
+------|--------------------------|---------------------
+  1   | En küçüğü bul ve takas et | [2, 3, 5, 8, 7, 9, 4, 15, 6]
+  2   | En küçüğü bul ve takas et | [2, 3, 4, 8, 7, 9, 5, 15, 6]
+  3   | En küçüğü bul ve takas et | [2, 3, 4, 5, 7, 9, 8, 15, 6]
+  4   | En küçüğü bul ve takas et | [2, 3, 4, 5, 6, 9, 8, 15, 7]
+
+Yukarıdaki tabloda her adımda en küçük eleman bulunup ilk elemanla takas edilmektedir. Her adımda bir önceki adımdan sonra sıralanmış bir dizi elde edilir. İlk 4 adım sonunda dizi kısmen sıralanmış hale gelir.
+
+Dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+1. Adım: En küçük eleman olan 2'yi bul ve ilk elemanla takas et.
+   - Yeni dizi: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+2. Adım: En küçük eleman olan 3'ü bul ve ikinci elemanla takas et.
+   - Yeni dizi: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+3. Adım: En küçük eleman olan 4'ü bul ve üçüncü elemanla takas et.
+   - Yeni dizi: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+
+4. Adım: En küçük eleman olan 5'i bul ve dördüncü elemanla takas et.
+   - Yeni dizi: [2, 3, 4, 5, 6, 9, 8, 15, 7]
+
+Bu şekilde, Selection Sort algoritması ilk 4 adım sonunda dizinin bazı elemanlarını sıralar. İlerleyen adımlarda sıralama işlemi devam edecektir.
