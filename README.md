@@ -2,3 +2,5 @@
 
 # Üniversite Yönetim Sistemi
 ![TP712i8m38RlUOgwex21Tmy3lOh2y062fXfiEsawFQZlRZVSxD2T2b__95z8AG5zQAo1MJYJ9OLtoMkFxaG01uCYQk_uHbuua7h0gwSLEzQ6BobReM6nkDKidF8rNUCGYow5RUgdU1pP-LgJr3vb6xBD1oHYsI9JUHwVefXdWzjq8ZMTJWtUyDrWd6WRG6--VCQFtdbCEsleLluZ4WT0IU](https://github.com/IEmreOzkayaI/Patika_Dev/assets/72611040/457600ae-4e7a-4d22-9836-33ebbd36a291)
+# Hayvanat Bahçesi Yönetim
+![jP4n2i9044NxFSNOAU85KYKW8bXwWabss2nkDZ0xKODubfmXlPthlOonKLkr_6-OnuUV1a6Mfd9g8YLL17W8YvhH6r8Ayo2CXK3XC0HOOxj73oS5C0UvNZZJiKzWAsoz6I76BlRiOhzBGDTDxcZ4BTww1AoNCHcIPHtGq7JszZpm5P7U5YNfnhrUpqez6sG2T1Jo-gFC5yeDQMkiSyH_K5](https://github.com/IEmreOzkayaI/Patika_Dev/assets/72611040/f36967bc-6ee1-49fc-b42e-b7af746fbc33)
