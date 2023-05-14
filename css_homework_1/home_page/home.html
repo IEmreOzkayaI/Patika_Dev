@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        #navigation {
+            display: flex;
+            list-style: none;
+        }
+
+        #navigation li:nth-child(2) {
+            padding: 0 20px 0 20px;
+        }
+
+        h2 {
+            color: purple;
+            text-align: center;
+        }
+
+        h3 {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Müzik Dükkanım</h1>
+        <ul id="navigation">
+            <li class="list-item">
+                <a href="./home.html">Ana Sayfa</a>
+            </li>
+            <li class="list-item">
+                <a href="../product_page/products.html">Ürünlerimiz</a>
+            </li>
+            <li class="list-item">
+                <a href="../about_page/about.html">Hakkımızda</a>
+            </li>
+        </ul>
+    </header>
+
+    <h2>Ana Sayfa</h2>
+    <p>Müzik Dükkanım sitemize hoş geldiniz! Bu sitede çeşitli müzik aletlerini bulabilirsiniz. Uygun fiyatlarımız ve
+        kaliteli ürünlerimiz için <a href="../product_page/products.html">Ürünlerimiz</a> sayfamızı ziyaret
+        edebilirsiniz.</p>
+    <h3>Sitemizki Bulunan Müzik Aletleri</h3>
+    <ul>
+        <li>Gitar</li>
+        <li>Davul</li>
+        <li>Piyano</li>
+        <li>Keman</li>
+    </ul>
+
+</body>
+
+</html>
