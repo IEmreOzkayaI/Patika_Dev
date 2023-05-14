@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .container .search-field {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f2f2f2;
+            width: 75%;
+        }
+
+        .container .search-field .search-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .container .search-field .search-header p {
+            margin: 0;
+        }
+
+        .container .search-field .search-header input {
+            width: 50%;
+        }
+
+        .container .search-field .search-links {
+            display: grid;
+            grid-template-columns: 3fr 2fr 3fr;
+            width: 100%;
+            background-color: aqua;
+        }
+
+
+        .container .search-field .search-links .link-1,
+        .container .search-field .search-links .link-2,
+        .container .search-field .search-links .link-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-right: 2px solid #fff;
+        }
+        .container .search-field .search-links .link-3 input{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+        <div class="search-field">
+            <div class="search-header">
+                <p>Search the web using Google!</p>
+                <input type="text" name="" id="">
+                <div class="search-buttons">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <div class="search-links">
+                <div class="link-1">
+                    <p> Special Searches
+                    </p>
+
+                    <a href="#">Stanford Search</a>
+                    <a href="#">Linux Search</a>
+                </div>
+                <div class="link-2">
+                    <a href="#">Help!</a>
+                    <a href="#">About Google!</a>
+                    <a href="#">Company Info</a>
+                    <a href="#">Google! Logos</a>
+                </div>
+                <div class="link-3">
+                    <p>
+                        Get Google! updates monthly
+                    </p>
+                    <input type="text">
+                    <div class="text-button">
+                        <button>Subscribe</button>
+                        <a href="#">Archive</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright &copy;;1998 Google Inc</p>
+    </div>
+</body>
+
+</html>
